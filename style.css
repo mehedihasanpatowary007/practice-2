@@ -9,15 +9,16 @@ body{
     background-size: cover;
     height: 100vh;
     text-align: center;
-    color: black;
     margin-bottom: 100px;
 }
 .donate-now h1{
     font-size: 50px;
+    color: black;
 }
 .donate-now p{
     font-size: 20px;
     padding-bottom: 10px;
+    color: white;
 }
 .donation{
     padding: 150px 200px;
@@ -29,4 +30,40 @@ body{
     padding: 10px 10px;
     border-radius: 5px;
     font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+.donate-today-now{
+    text-align: center;
+}
+.donate-today-now h1{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.donate-today-now p{
+    font-size: 20px;
+    padding: 0px 200px;
+    padding-bottom: 20px;
+}
+.donate-today{
+    padding-bottom: 20px;
+}
+.donate-today a{
+    text-decoration: none;
+    width: auto;
+    border: 1px solid black;
+    padding: 10px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin: 5px;
+    background-color: gray;
+}
+.donate-today a:hover{
+    color: crimson;
+}
+.other-amount{
+    padding-bottom: 20px;
+}
+.other-amount input{
+    border-color:2px solid black;
+
 }
