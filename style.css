@@ -13,6 +13,7 @@ body{
 }
 .donate-now h1{
     font-size: 50px;
+    font-weight: 700;
     color: black;
 }
 .donate-now p{
@@ -34,10 +35,12 @@ body{
 }
 .donate-today-now{
     text-align: center;
+    padding-bottom: 50px;
 }
 .donate-today-now h1{
     font-size: 50px;
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
 }
 .donate-today-now p{
     font-size: 20px;
@@ -65,5 +68,70 @@ body{
 }
 .other-amount input{
     border-color:2px solid black;
-
+}
+.services{
+    display: flex;
+    padding-bottom: 100px;
+}
+.services-item{
+    width: 30%;
+    margin: 10px;
+    border: 10px 10px ;
+    padding: 50px 30px;
+    border-radius: 10px;
+}
+.services-item h1{
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#food{
+    background-image: linear-gradient(blue,lightblue);
+}
+#shelter{
+    background-image: linear-gradient(green,lightgreen);
+}
+#education{
+    background-image: linear-gradient(blue,skyblue);
+}
+.lives{
+    display: flex;
+    padding-bottom: 50px;
+}
+.depend-donation{
+    width: 40%;
+    margin: 20px;
+}
+#hi img{
+    border-radius: 10px;
+}
+#hello{
+    padding-left: 80px;
+}
+.survive{
+    display: flex;
+    padding-bottom: 50px;
+}
+.they-survive{
+    width: 40%;
+    margin: 100px;
+}
+.they-survive img{
+    border-radius: 10px;
+}
+.my-updates{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.my-updates h1{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.my-updates p{
+    padding: 0px 200px;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px 10px;
 }
